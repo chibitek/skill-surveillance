@@ -15,6 +15,25 @@ One-paragraph fair characterization.
 **High severity:** none / list  
 **Final PASS/FAIL:** …
 
+## Read it back (plain English)
+
+Grouped digest of what this pack *actually* does — not a skim of titles:
+
+- **Install / setup:**
+- **Auth / credentials:**
+- **Network / remote:**
+- **Persistence / agent-home:**
+- **Personas / prompts:**
+- **Side installs ("also install"):**
+
+## Open-first queue
+
+Files / paths to open first (highest blast radius → lowest):
+
+1.
+2.
+3.
+
 ## Inventory
 
 | Item | Result |
@@ -31,6 +50,16 @@ One-paragraph fair characterization.
 ### Structure notes
 
 Benign shape vs surprising shape (short).
+
+## Deep scan (foundation)
+
+| Area | Notes |
+|------|-------|
+| Transitive deps / lifecycle scripts | |
+| Sibling skills / submodules / also-install | |
+| MCP / CLI / desktop outside clone | |
+| CI / release binaries | |
+| Existing secret / VPN / browser assumptions | |
 
 ## Findings
 
