@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local scan clones (never commit third-party trees here)
+*-scan/
+workspace-scans/
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Python / Node leftovers if someone adds tooling later
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+build/
